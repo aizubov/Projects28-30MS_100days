@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  Projects28-30MS_100days
+//  Projects28-30_100days
 //
-//  Created by user228564 on 5/4/23.
+//  Created by user228564 on 5/1/23.
 //
 
 import UIKit
@@ -41,7 +41,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
          application to it. This property is optional since there are legitimate
          error conditions that could cause the creation of the store to fail.
         */
-        let container = NSPersistentContainer(name: "Projects28_30MS_100days")
+        let container = NSPersistentContainer(name: "Projects28_30_100days")
         container.loadPersistentStores(completionHandler: { (storeDescription, error) in
             if let error = error as NSError? {
                 // Replace this implementation with code to handle the error appropriately.
